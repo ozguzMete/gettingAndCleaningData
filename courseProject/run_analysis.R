@@ -69,7 +69,7 @@ run_analysis <- function() {
       install.packages("plyr")
     }
     library("plyr") ## IT REQUIRES INSTALLATION... install.packages("plyr")
-    head
+
     activities <- join(x=labels,y=activityNames) ## IT KEEPS THE ORDER OF X!
     activities <- activities$ACTIVITY_NAME ## No need ACTIVITY_ID anymore
     
